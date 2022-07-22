@@ -1,0 +1,23 @@
+.footer {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%,  #394149 50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer ul {
+  color: white;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 0%;
+  list-style-type: none;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.icon{
+  width: 30px;
+  filter: invert();
+}
